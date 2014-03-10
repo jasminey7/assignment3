@@ -1,0 +1,116 @@
+/* Style Sheet for NYUnities for desktop */
+/* tablet style sheet*/
+
+/* Background and color */
+
+html { 
+  background: url('shakes1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+body {
+		background-image:url("public_html/Assignment4/shakes.jpg");	
+		background-size:568px 208px;
+		background-repeat:repeat-x;
+		float: center;
+		background-position: absolute;
+		font-family: Verdana;
+}/* end body*/
+
+/* basic div styles */
+
+#container{ 
+	width: 50%;
+	max-width: 1300px; /* how big the screen can be enlarged*/
+	margin: auto;
+} /* end container style */
+
+
+#content {
+	clear: both; /* limits floats*/
+	margin-top: 100px;
+} /* end content style */
+
+/* adaptive layout style starts*/
+
+.column1 {
+	float: left;
+	width: 49%;
+	margin-right: 2%:
+} /* end column1 style */
+
+.column2 {
+	float: left;
+	width: 49%;
+} /* end column2 style */
+
+.column3{
+	clear: both;
+	width:49%;
+
+}
+
+h1, h2{
+	text-align: left;
+		color: navy;
+		font-size: 20pt;
+		font-family; Verdana, Times;
+}/* end all headline styles */
+
+ h3, h4, h5, h6 {
+		color: grey;
+		font-size: 1.75em;
+		font-family: serif;
+}/* end all headline styles */
+
+
+/* START of basic text styles */
+
+p, ul, ol, {
+		color: black;
+		font-family: arial;
+		text-indent: 50 px;
+		margin-right:100px;
+		margin-left:100px;
+	}
+	
+}/* end p, ul, ol styles */
+
+/* START image style */
+
+
+#footer{
+	clear:both;
+	padding: 24px;
+    bottom:0px;
+    position:absolute;
+	
+}
+a: link, a:visited, {
+	text-decoration: none; /*meaning no underlines*/
+	color :black
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: orange; 
+	background: white;
+}/* end focus and hover style */
+
+a:active;{ 
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+

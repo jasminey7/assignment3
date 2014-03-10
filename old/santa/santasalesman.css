@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+	color: black;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 50%;
+	margin-right: 15%;
+	background-color: #FFFFFF;
+	background-image: url(../pix/cokesanta2.png);
+	background-repeat: no-repeat;
+	}
+	
+h2 {
+	align: center; 
+	color: red;
+	
+	}
+	
+footer{
+	align: right;
+	text-align: right;	
+	}

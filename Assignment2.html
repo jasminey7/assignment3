@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset = "UTF-8">
+	<title>Assignment 2</title>
+	<style>
+	body{
+		background-color: black;
+	}
+	.container {
+		background-position: 50% 50%;
+		background-color: white;
+		width: 820px;
+		height: 100%;
+		margin: auto;
+	}
+
+	.a{
+		z-index:1;
+		display: block;
+		background-image: url(copy.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		top:100px;
+		height: 265px;
+		width: 820px;
+	}
+
+	.b{
+		display: block;
+		background-image: url(copy1.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		background-position: -821px 0;
+		top: 375px;
+		height: 230px;
+		width: 820px;
+		transition-property: background-position;
+		transition-duration:0.5s;
+	}
+
+	.b:hover{
+		background-position: 0px 0;
+	}
+
+	image{
+		width: 120px;
+	}
+
+	image:hover{
+		transform: translateY(250px) rotate(360deg);
+		-webkit-transform: translateY(250px) rotate(360deg);
+	}
+
+	#object{	
+		animation: miley 5s;
+		-webkit-animation: miley 5s;
+		animation:spin 5s;
+		-webkit-animation:spin 5s;
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+
+		perspective: 400px;
+		-webkit-perspective:400px;
+
+		perspective-origin:top bottom ;
+		-webkit-perspective-origin:top bottom;
+	}
+
+	.picture{
+		transiton-property: transform;
+		transition-duration: 0.5s;
+	}
+	.picture:hover{
+		transform:rotate3d(1, 1, 0, 45deg);
+		-webkit-transform:rotate3d(1, 1, 0, 45deg);
+	}
+	.picture:active{
+		transform:rotate3d(-1, 1, 0, 60deg);
+		-webkit-transform:rotate3d(1, -1, 0, 60deg);
+	}
+
+	@keyframes spin{
+	from{transform: rotateY(0deg);}
+	to{transform:rotateY(360deg);}
+	}
+
+	@-webkit-keyframes spin{
+	from{-webkit-transform: rotateY(0deg);}
+	to{-webkit-transform:rotateY(360deg);}
+	}	
+
+
+
+	</style>
+
+	</head>
+
+		<body>
+			<div class = "container">
+				<svg>
+					<g id="welcome">
+						<image overflow="visible" width="2000" height="1078" xlink:href="D48D9FF0DFB884F3.png"  transform="matrix(0.24 0 0 0.24 186.7681 7.0762)">
+						</image>
+					</g>
+				</svg>
+
+				<a href= "http://i6.cims.nyu.edu/~syy265/landing"><div class ="a"></div> <div class = "b"></div></a>
+				
+				<div id='object'>
+					<a href = 'http://i6.cims.nyu.edu/~syy265/old/assignment6.html'>
+					<img class = 'picture' src='miley.gif' alt='object' width= '820px' height='820px'></img>
+					</a>
+		
+				</div>
+			</div> <!-- container -->
+			
+		</body>
+
+
+</html>

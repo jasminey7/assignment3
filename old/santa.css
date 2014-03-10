@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #330099;
+	color: white;	
+	}
+
+.column1{
+	margin-left: 5px;
+	width: 30%;
+	float: left;
+	clear: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+.column2{
+	width: 30%;
+	float: right;
+	clear: right;
+	visibility: visible;
+	}
+	
+footer{
+	float: right;
+	position: bottom;
+	}

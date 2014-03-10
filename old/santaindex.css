@@ -1,0 +1,30 @@
+@charset "UTF-8";
+footer{
+	color: #FFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	}
+	
+	a: link, a:visited, {
+	text-decoration: none; /*meaning no underlines*/
+	color: yellow;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: orange;
+}/* end focus and hover style */
+	
+	body{
+	background-color: #006;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url(pix/santa-sleigh.png);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+		}
+		
+	h2{
+		color:white;
+		
+		}

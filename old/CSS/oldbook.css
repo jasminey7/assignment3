@@ -1,0 +1,48 @@
+<style>
+	body{ background-color: lightgreen;
+		background-image: url ('public_html/pix/board.jpg');/*doesn'twork*/	
+		background-repeat: no repeat; /*repeat-y*/
+		background-position: right top;
+		margin-right: 290px;
+		margin-left: 75px;
+		font-family: helvetica;
+	}
+	
+	h1{ text-align: center;
+		color: navy;
+		font-family; Verdana, Times;
+	}
+	
+	div.title{
+		color:darkgreen;
+		font-size: 24pt;
+		width: 50%;
+		background-color: red;
+		position: absolute;
+		top:180px;
+		left:500px;
+	
+	}
+	
+	#p1 {
+		color: purple;
+		font-family: helvetica;
+		text-indent:50 px;
+		margin-right:100px;
+		margin-left:100px;
+	}
+	
+	.pullquote{ 
+		margin-left: 100px;
+		margin-right: 100px;
+		color: purple;
+		background-color: yellow;
+	
+	
+	}
+	
+	
+	
+	
+	
+	</style>
